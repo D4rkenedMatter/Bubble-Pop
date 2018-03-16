@@ -3,3 +3,4 @@
 global.gameStarted = false;
 bubbleSpawnCount = 30;
 spawned = false;
+roundWon = false;
