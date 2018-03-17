@@ -282,7 +282,7 @@
             "Key": "e21ab96b-5593-44f2-9e4a-7e791eaa15e2",
             "Value": {
                 "id": "0a604d9c-0edb-44f5-a503-aea698301b59",
-                "resourcePath": "objects\\timeBar\\timeBar.yy",
+                "resourcePath": "objects\\timeBar_obj\\timeBar_obj.yy",
                 "resourceType": "GMObject"
             }
         },

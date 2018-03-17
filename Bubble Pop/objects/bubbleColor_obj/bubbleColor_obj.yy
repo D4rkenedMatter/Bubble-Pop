@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "bubbleColor_obj",
     "eventList": [
-        
+        {
+            "id": "b9e93a92-e0f2-4caa-b7e4-aaef0a342a82",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0080c670-7417-40ea-ba47-a99f39d0b761"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
