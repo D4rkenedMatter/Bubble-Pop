@@ -12,3 +12,4 @@ if ((y <= yLowConditional) or (y >= yHighConditional)){
 else if((x <= xLowConditional) or (x >= xHighConditional)){
 	direction = 180-direction ;
 }
+draw_self();

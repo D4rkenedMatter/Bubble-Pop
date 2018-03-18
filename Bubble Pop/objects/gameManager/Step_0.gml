@@ -14,3 +14,11 @@ if(roundWon && instance_number(bubble_obj) == 0){
 	bubbleSpawnCount = 30;
 	roundWon = false;
 }
+if (device_mouse_check_button(0,mb_left) or device_mouse_check_button(0,mb_right)) {
+	for(var i = 0; i < size; i++){
+		if(instance_position(device_mouse_x(0),device_mouse_y(0),bubbleArray[i])){
+			instance_destroy(bubbleArray[i]);
+		}
+	}
+}
+global.timeLeft -= delta_time/1000000;

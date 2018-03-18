@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-randomize();
 var ranSprite = irandom(3);
 speed = irandom_range(2,5);
 direction = irandom_range(0,360);
