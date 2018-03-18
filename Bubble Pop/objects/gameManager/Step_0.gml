@@ -7,6 +7,10 @@ if(!spawned){
 		bubbleSpawnCount--;
 	}
 }
-if(roundWon && instance_count(bubble_obj) == 0){
-	
+if(!roundWon && instance_number(bubble_obj) == 0){
+	roundWon = true;
+}
+if(roundWon && instance_number(bubble_obj) == 0){
+	bubbleSpawnCount = 30;
+	roundWon = false;
 }
