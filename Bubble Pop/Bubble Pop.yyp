@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "9b0af0d2-d3ea-4013-b2e7-a44e420a0e9e",
+            "Value": {
+                "id": "8165935c-7398-4550-8038-8fb3c1370c17",
+                "resourcePath": "scripts\\generateBubbleColor\\generateBubbleColor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "720802e7-ab67-47c7-ae6f-7969c48dd04e",
@@ -320,7 +328,7 @@
         }
     ],
     "script_order": [
-        
+        "9b0af0d2-d3ea-4013-b2e7-a44e420a0e9e"
     ],
     "tutorial": ""
 }
