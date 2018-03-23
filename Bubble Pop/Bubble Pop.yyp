@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "24bb2ce8-5f59-4463-944a-f102846dbbe7",
+            "Value": {
+                "id": "351ce2bc-0ce9-4929-a552-914c91bffed6",
+                "resourcePath": "sprites\\sprite7\\sprite7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2600d155-3391-44ee-ac8a-8f69ebef53df",
             "Value": {
                 "id": "97d4b7a6-f8d2-4801-b969-33df9fc19389",
@@ -324,6 +332,14 @@
                 "id": "b6d7fb31-fb65-42e3-9f9a-07da9074660b",
                 "resourcePath": "views\\ddca87ed-2577-47fb-86d9-24a0a60a5eee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e177b2cc-f151-4b80-b217-7582b4bacc8d",
+            "Value": {
+                "id": "826bac54-eda7-4eb9-9edd-472ce7b10fbd",
+                "resourcePath": "datafiles_yy\\Colorful-soap-bubbles.zip.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
