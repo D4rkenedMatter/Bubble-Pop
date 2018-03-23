@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "22064dbb-3abf-45dd-b5be-50544bd433b7",
+            "Value": {
+                "id": "5a84c9ee-f2e8-40d9-8839-9127eb01d133",
+                "resourcePath": "scripts\\deleteBubble\\deleteBubble.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2600d155-3391-44ee-ac8a-8f69ebef53df",
             "Value": {
                 "id": "97d4b7a6-f8d2-4801-b969-33df9fc19389",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "8edeea03-37d5-49bd-8194-0cfd82c2f375",
+            "Value": {
+                "id": "7dcd85b3-8c41-4070-8592-1cdec0798f11",
+                "resourcePath": "objects\\playButton_obj\\playButton_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95a5c1a7-826e-4618-a02f-ddca6bf4c830",
             "Value": {
                 "id": "310c8c06-00d5-44fa-ba5c-db608d021cb0",
@@ -154,7 +170,7 @@
             "Key": "9b0af0d2-d3ea-4013-b2e7-a44e420a0e9e",
             "Value": {
                 "id": "8165935c-7398-4550-8038-8fb3c1370c17",
-                "resourcePath": "scripts\\generateBubbleColor\\generateBubbleColor.yy",
+                "resourcePath": "scripts\\changeBubbleColor\\changeBubbleColor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -287,6 +303,22 @@
             }
         },
         {
+            "Key": "d0f6699f-0d60-4a39-b9c4-76dc8b5a7b93",
+            "Value": {
+                "id": "2089742b-7c7f-4ab4-a82e-f877ac74754f",
+                "resourcePath": "scripts\\generateBubbleColor\\generateBubbleColor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d546a271-467f-4d45-bf6f-2072ad3e6485",
+            "Value": {
+                "id": "dc191eed-f9a0-4b63-84ff-880ff534c612",
+                "resourcePath": "sprites\\playButton_spr\\playButton_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ddca87ed-2577-47fb-86d9-24a0a60a5eee",
             "Value": {
                 "id": "b6d7fb31-fb65-42e3-9f9a-07da9074660b",
@@ -328,7 +360,9 @@
         }
     ],
     "script_order": [
-        "9b0af0d2-d3ea-4013-b2e7-a44e420a0e9e"
+        "9b0af0d2-d3ea-4013-b2e7-a44e420a0e9e",
+        "d0f6699f-0d60-4a39-b9c4-76dc8b5a7b93",
+        "22064dbb-3abf-45dd-b5be-50544bd433b7"
     ],
     "tutorial": ""
 }

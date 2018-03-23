@@ -1,8 +1,8 @@
 {
-    "id": "d0f6699f-0d60-4a39-b9c4-76dc8b5a7b93",
+    "id": "9b0af0d2-d3ea-4013-b2e7-a44e420a0e9e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "generateBubbleColor",
+    "name": "changeBubbleColor",
     "IsCompatibility": false,
     "IsDnD": false
 }

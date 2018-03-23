@@ -1,22 +1,29 @@
-var color = irandom_range(0,5);
+///@description generate a color bubble to pop
+///@param bubbleArray
+///@param size
 
+var bubbleArray = argument0;
+var size = argument1;
+
+var index = irandom_range(0,size-1);
+var color = bubbleArray[index].color;
 switch(color){
-	case 0:
+	case "red":
 		global.bubbleTargetColor = "red";
 		break;
-	case 1:
+	case "green":
 		global.bubbleTargetColor = "green";
 		break;
-	case 2:
+	case "blue":
 		global.bubbleTargetColor = "blue";
 		break;
-	case 3:
+	case "yellow":
 		global.bubbleTargetColor = "yellow";
 		break;
-	case 4:
+	case "purple":
 		global.bubbleTargetColor = "purple";
 		break;
-	case 5:
+	case "orange":
 		global.bubbleTargetColor = "orange";
 		break;
 }

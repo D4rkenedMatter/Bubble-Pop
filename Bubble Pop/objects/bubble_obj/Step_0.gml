@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 var yLowConditional = sprite_height/2 + bubbleColor_obj.sprite_height;
-var yHighConditional = room_height-sprite_height/2;
+var yHighConditional = room_height-sprite_height/2 - bubbleColor_obj.sprite_height;
 var xLowConditional = sprite_width/2 + timeBar_obj.sprite_width;
 var xHighConditional = room_width-sprite_width/2-timeBar_obj.sprite_width;
 y=clamp(y,yLowConditional,yHighConditional);
