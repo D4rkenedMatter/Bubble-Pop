@@ -1,9 +1,10 @@
 ///@description generate a color bubble to pop
-///@param bubbleArray
-///@param size
 
-var bubbleArray = argument0;
-var size = argument1;
+var bubbleArray;
+for(i = 0; i < instance_number(bubble_obj); i++){
+		bubbleArray[i] = instance_find(bubble_obj,i);
+}
+var size = array_length_1d(bubbleArray);
 
 var index = irandom_range(0,size-1);
 var color = bubbleArray[index].color;

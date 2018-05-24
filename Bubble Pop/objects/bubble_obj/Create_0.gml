@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 color = pointer_null;
+bubblePopped = false;
+image_speed = 0;
+ds_map_add(gameManager.bubbleMap,id,id);
 var ranSprite = irandom(3);
 speed = irandom_range(2,5);
 direction = irandom_range(0,360);

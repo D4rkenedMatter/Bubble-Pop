@@ -11,6 +11,4 @@ with(bubble){
 	x=posX;
 	y=posY;
 }
-bubbleArray[size] = bubble.id;
-size++;
 spawned = false;
