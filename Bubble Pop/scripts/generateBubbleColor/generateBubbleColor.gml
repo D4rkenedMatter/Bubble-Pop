@@ -1,8 +1,13 @@
 ///@description generate a color bubble to pop
+///@param id
 
 var bubbleArray;
+
 for(i = 0; i < instance_number(bubble_obj); i++){
-		bubbleArray[i] = instance_find(bubble_obj,i);
+	var objectID = instance_find(bubble_obj,i);
+	if(objectID != argument0){
+		bubbleArray[i] = objectID;
+	}
 }
 var size = array_length_1d(bubbleArray);
 

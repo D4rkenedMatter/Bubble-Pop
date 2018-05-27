@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-changeBubbleColor(global.bubbleTargetColor);
+image_speed = 2;
+color = pointer_null;

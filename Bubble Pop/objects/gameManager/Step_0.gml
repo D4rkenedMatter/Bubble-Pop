@@ -8,7 +8,7 @@ if(!spawned){
 	}
 }
 if(ds_map_size(bubbleMap) == spawnConstant && !newRoundSetup){
-	generateBubbleColor();
+	generateBubbleColor(pointer_null);
 	global.timeLeft = global.roundTime;
 	newRoundSetup = true;
 }
@@ -18,12 +18,12 @@ if(ds_map_size(bubbleMap) == 0 && newRoundSetup){
 	newRoundSetup = false;
 }
 
-if(clicked){
+if(clicked && newRoundSetup){
 	if(bubblePopped.color == global.bubbleTargetColor){
 		ds_map_delete(gameManager.bubbleMap,bubblePopped);
-		bubblePopped.destroy = true;
+		instance_destroy(bubblePopped);
 		if(ds_map_size(bubbleMap) > 0){
-			generateBubbleColor();
+			generateBubbleColor(bubblePopped);
 		}else{
 			global.bubbleTargetColor = "black";	
 		}
@@ -34,7 +34,7 @@ if(clicked){
 }
 
 if(global.timeLeft <= 0 && newRoundSetup){
-	room_goto(mainMenu);	
+	room_goto(mainMenu);
 }
 if(newRoundSetup){
 	global.timeLeft -= delta_time/1000000;
