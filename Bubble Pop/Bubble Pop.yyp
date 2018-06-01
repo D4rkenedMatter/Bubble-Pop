@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "0a5206d0-80ca-4b19-a2b7-d18322b97984",
+            "Value": {
+                "id": "c623358e-9459-47b3-bacc-b9cffaffab54",
+                "resourcePath": "sprites\\bubbleGreen_ani\\bubbleGreen_ani.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1117bcd1-c5b4-42e8-baec-70d8085d0734",
+            "Value": {
+                "id": "36b6295e-96cb-4e98-86d3-1e803b3d1aa7",
+                "resourcePath": "sprites\\bubbleOrange_ani\\bubbleOrange_ani.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11787152-7cbf-4228-a5ea-e14272a7acec",
             "Value": {
                 "id": "a02d8f34-8a1c-4c20-95f7-37ed76b3c700",
@@ -68,6 +84,14 @@
                 "id": "e01061e4-5ffe-4e20-8b11-0cb5b6b8bc0a",
                 "resourcePath": "views\\16184bd5-9d7f-493d-ace8-afe6d997ae81.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1a360d92-db1c-4fdc-a484-92a52fe5acb2",
+            "Value": {
+                "id": "0a713d5a-2e5d-4746-91cf-0168052b7cdb",
+                "resourcePath": "sprites\\bubbleYellow_ani\\bubbleYellow_ani.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -111,10 +135,26 @@
             }
         },
         {
-            "Key": "4789836f-78a7-4af9-becd-29b8d2a343f6",
+            "Key": "40864edd-5d03-4eaa-92ff-2c93d96ef91a",
             "Value": {
-                "id": "33723932-4223-4c58-abda-b2b32e4018ec",
-                "resourcePath": "sprites\\bubblePurple_spr\\bubblePurple_spr.yy",
+                "id": "5f538783-67e8-40e1-97f9-7fdc27573fcb",
+                "resourcePath": "sprites\\bubbleYellow_spr\\bubbleYellow_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4735a55c-f1d3-42ed-8f18-ad45cc19ab76",
+            "Value": {
+                "id": "65815593-8b76-46e0-bcfd-3e2000ce684b",
+                "resourcePath": "sprites\\bubbleRed_spr\\bubbleRed_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4897eeb8-aa04-4e9c-b95b-713d88ab7b23",
+            "Value": {
+                "id": "9c45cba6-9bcd-4931-9333-81cb156bfcd9",
+                "resourcePath": "sprites\\bubbleBlue_ani\\bubbleBlue_ani.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -127,26 +167,26 @@
             }
         },
         {
-            "Key": "53393a9b-1a48-4650-a9b0-27901775a123",
+            "Key": "56912fe6-2360-4dfb-8704-1702f8de7745",
             "Value": {
-                "id": "e6a4d491-f45a-4ec4-a56a-2ee8b94bb21d",
-                "resourcePath": "sprites\\bubbleRed_spr\\bubbleRed_spr.yy",
+                "id": "27555f48-7ae8-40c5-ad6d-0219604c2d98",
+                "resourcePath": "sprites\\bubbleOrange_spr\\bubbleOrange_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "6cab543d-9a3c-43bf-949e-2ec8e8c7f296",
+            "Key": "5a510edf-4d9d-440f-82b2-40614f479b18",
             "Value": {
-                "id": "f1c6f5fb-4245-42ec-a801-5c884b42bfc6",
-                "resourcePath": "sprites\\bubbleGreen_ani\\bubbleGreen_ani.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6dbdeef5-8a9a-46dc-bcd5-0236abb60a5f",
-            "Value": {
-                "id": "2491d83d-6462-481e-ac9f-2c9391c2f994",
+                "id": "fce76f3c-7279-4c4f-b765-b30cd9313e93",
                 "resourcePath": "sprites\\bubbleGreen_spr\\bubbleGreen_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6becdaf3-dd5b-41b1-b51c-d7593f532270",
+            "Value": {
+                "id": "1ff339c8-33a9-43da-b31f-c8a46487cf6c",
+                "resourcePath": "sprites\\bubbleRed_ani\\bubbleRed_ani.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -175,6 +215,14 @@
             }
         },
         {
+            "Key": "7c1274f1-a016-4396-afd6-67e75acb63e3",
+            "Value": {
+                "id": "4606a230-9a47-48c6-8cff-9ef3a12078ed",
+                "resourcePath": "sprites\\bubblePurple_spr\\bubblePurple_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "6c8a767d-f687-472a-8e5e-b0d073dc9e68",
@@ -191,18 +239,10 @@
             }
         },
         {
-            "Key": "86786cab-67e9-4769-858d-8ed62f350e91",
+            "Key": "875cd47a-5ebb-4a52-be07-677a920e8845",
             "Value": {
-                "id": "78a9293a-74b0-44f7-b48c-88a4477f20c1",
-                "resourcePath": "sprites\\bubbleRed_ani\\bubbleRed_ani.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "87e8bcab-9b48-472e-ab62-211036a83d5c",
-            "Value": {
-                "id": "f80a8a4c-896d-4423-b61c-461af2cee8da",
-                "resourcePath": "sprites\\bubbleBlue_ani\\bubbleBlue_ani.yy",
+                "id": "e28293d3-8c2c-45c6-ae61-058bb25b589a",
+                "resourcePath": "sprites\\bubblePurple_ani\\bubblePurple_ani.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -220,22 +260,6 @@
                 "id": "310c8c06-00d5-44fa-ba5c-db608d021cb0",
                 "resourcePath": "objects\\gameManager\\gameManager.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "95b99579-c782-4b6c-932d-59661e3ed62a",
-            "Value": {
-                "id": "e43a6ff9-5d1d-4451-9233-575afffa0ee3",
-                "resourcePath": "sprites\\bubbleOrange_spr\\bubbleOrange_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "96bfb6d5-2a0f-4dc8-93e2-52e2b45cf8cb",
-            "Value": {
-                "id": "2be78325-f0d4-4eb6-acfc-f86d1c329bd7",
-                "resourcePath": "sprites\\bubbleYellow_ani\\bubbleYellow_ani.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,14 +367,6 @@
             }
         },
         {
-            "Key": "c7690ed0-b4a9-442d-a1ff-1d4c39bfbf84",
-            "Value": {
-                "id": "0d90fbb1-db4a-47e3-b09c-76698b94cb59",
-                "resourcePath": "sprites\\bubbleOrange_ani\\bubbleOrange_ani.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c8f55988-b87f-4f22-bc5d-40da36a977c6",
             "Value": {
                 "id": "f79284e0-cfaf-47ff-8f2d-110fcbba6415",
@@ -391,14 +407,6 @@
             }
         },
         {
-            "Key": "cdf563f5-a972-4eec-ace3-645698b30176",
-            "Value": {
-                "id": "1b81bb7a-dadd-42fa-bc5d-451d169adba5",
-                "resourcePath": "sprites\\bubbleYellow_spr\\bubbleYellow_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d0f6699f-0d60-4a39-b9c4-76dc8b5a7b93",
             "Value": {
                 "id": "2089742b-7c7f-4ab4-a82e-f877ac74754f",
@@ -411,14 +419,6 @@
             "Value": {
                 "id": "dc191eed-f9a0-4b63-84ff-880ff534c612",
                 "resourcePath": "sprites\\playButton_spr\\playButton_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "dd8bf17f-dc42-40dc-97a0-e3ff765d2aaf",
-            "Value": {
-                "id": "eb65f665-7aa5-4f55-b98c-67fa9b86d5da",
-                "resourcePath": "sprites\\bubblePurple_ani\\bubblePurple_ani.yy",
                 "resourceType": "GMSprite"
             }
         },
