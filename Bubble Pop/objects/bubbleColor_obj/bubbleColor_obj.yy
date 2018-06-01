@@ -5,17 +5,7 @@
     "name": "bubbleColor_obj",
     "eventList": [
         {
-            "id": "b9e93a92-e0f2-4caa-b7e4-aaef0a342a82",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "0080c670-7417-40ea-ba47-a99f39d0b761"
-        },
-        {
-            "id": "05d0ef3d-3a5f-4745-a581-f07ec1938337",
+            "id": "d8e0c3b1-0a7d-4f7f-a24b-778ea9d0909e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

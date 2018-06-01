@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-var newBubble = instance_create_layer(x,y,"Instances",bubbleAnimation_obj);
-newBubble.image_xscale = image_xscale;
-newBubble.image_yscale = image_yscale;
-newBubble.color = color;
-with(newBubble){
-	changeBubbleColor(color);	
+bubbleAnimation_obj.x = x
+bubbleAnimation_obj.y = y;
+with(bubbleAnimation_obj){
+	image_speed = 2;
+	image_index = 0;
+	changeBubbleColor(global.bubbleTargetColor);	
 }
+bubbleAnimation_obj.image_xscale = image_xscale
+bubbleAnimation_obj.image_yscale = image_yscale;

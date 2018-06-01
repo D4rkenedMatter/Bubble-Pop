@@ -2,7 +2,7 @@
 {
     "name": "gameRoom",
     "id": "03c4da7d-8cc8-45f6-83bb-cdf0f1a203ba",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -11,7 +11,8 @@
         "78f23cdb-c7da-407c-a902-7054ce972a50",
         "46fc6e2a-3947-407c-84c8-aef9f79483c1",
         "a8679c7c-c229-4291-88ea-cfa6ffcd149c",
-        "add8e202-6382-42f7-8cc9-6870ec1ba5aa"
+        "add8e202-6382-42f7-8cc9-6870ec1ba5aa",
+        "0a2691f0-f181-47e9-ae43-fc25b5457e50"
     ],
     "IsDnD": false,
     "layers": [
@@ -46,13 +47,39 @@
             "visible": true
         },
         {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Instances_1",
+            "id": "171b6367-2311-409d-9ff7-8d6f7f8e02d2",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_65734D99","id": "0a2691f0-f181-47e9-ae43-fc25b5457e50","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_65734D99","objId": "cd139f28-2337-49c5-a5bf-2c074f8321fa","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -672,"y": 896}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "23e09afd-4da1-426d-a36b-79c8540f6c9d",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

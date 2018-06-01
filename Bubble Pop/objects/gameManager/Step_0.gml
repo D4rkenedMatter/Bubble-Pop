@@ -8,7 +8,7 @@ if(!spawned){
 	}
 }
 if(ds_map_size(bubbleMap) == spawnConstant && !newRoundSetup){
-	generateBubbleColor(pointer_null);
+	generateBubbleColor();
 	global.timeLeft = global.roundTime;
 	newRoundSetup = true;
 }
@@ -23,9 +23,9 @@ if(clicked && newRoundSetup){
 		ds_map_delete(gameManager.bubbleMap,bubblePopped);
 		instance_destroy(bubblePopped);
 		if(ds_map_size(bubbleMap) > 0){
-			generateBubbleColor(bubblePopped);
+			generateBubbleColor();
 		}else{
-			global.bubbleTargetColor = "black";	
+			global.bubbleTargetColor = "black";
 		}
 	}else{
 		room_goto(mainMenu);	
