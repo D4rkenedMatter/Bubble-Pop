@@ -5,3 +5,4 @@ if (device_mouse_check_button(0,mb_left) or device_mouse_check_button(0,mb_right
 		
 	}
 }
+

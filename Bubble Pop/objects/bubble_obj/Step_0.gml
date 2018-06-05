@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-var yLowConditional = (bbox_bottom-bbox_top)/2 + uiBar_obj.sprite_height;
-var yHighConditional = room_height-(bbox_bottom-bbox_top)/2 - bubbleColor_obj.sprite_height;
+var yLowConditional = (bbox_bottom-bbox_top)/2 + bubbleColor_obj.sprite_height;
+var yHighConditional = room_height-(bbox_bottom-bbox_top)/2;
 var xLowConditional = (bbox_right-bbox_left)/2 + timeBar_obj.sprite_width;
 var xHighConditional = room_width-(bbox_right-bbox_left)/2-timeBar_obj.sprite_width;
 
@@ -22,3 +22,4 @@ if ((y <= yLowConditional) or (y >= yHighConditional)){
 else if((x <= xLowConditional) or (x >= xHighConditional)){
 	direction = 180-direction ;
 }
+image_angle += spin;

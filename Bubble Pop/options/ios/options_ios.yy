@@ -43,7 +43,7 @@
     "option_ios_splashscreen_ipad_retina_ios7_landscape": "${base_options_dir}\\ios\\splash\\ipad_retina_7_landscape.png",
     "option_ios_splashscreen_ipad_retina_ios7_portrait": "${base_options_dir}\\ios\\splash\\ipad_retina_7_portrait.png",
     "option_ios_splashscreen_ipad_retina_landscape": "${base_options_dir}\\ios\\splash\\ipad_retina_landscape.png",
-    "option_ios_splashscreen_ipad_retina_portrait": "${base_options_dir}\\ios\\splash\\iphone_retina_portrait.png",
+    "option_ios_splashscreen_ipad_retina_portrait": "C:\\Program Files\\GameMaker Studio 2\\GUI\\Skins\/Dark\\Images\\IDE_Toolbar\\icon_IDE_save.png",
     "option_ios_splashscreen_iphone_ios56_2x_portrait": "${base_options_dir}\\ios\\splash\\iphone_56_2x_portrait.png",
     "option_ios_splashscreen_iphone_ios56_portrait": "${base_options_dir}\\ios\\splash\\iphone_56_portrait.png",
     "option_ios_splashscreen_iphone_ios56_retina4_portrait": "${base_options_dir}\\ios\\splash\\iphone_56_retina4_portrait.png",
@@ -55,7 +55,7 @@
     "option_ios_splashscreen_iphone_x_landscape": "${base_options_dir}\\ios\\splash\\iphone_x_landscape.png",
     "option_ios_splashscreen_iphone_x_portrait": "${base_options_dir}\\ios\\splash\\iphone_x_portrait.png",
     "option_ios_team_id": "",
-    "option_ios_texture_page": "2048x2048",
+    "option_ios_texture_page": "4096x4096",
     "option_ios_use_facebook": false,
     "option_ios_version": {
         "build": 0,

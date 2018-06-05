@@ -1,1 +1,1 @@
-draw_texture_flush();
+//draw_texture_flush();

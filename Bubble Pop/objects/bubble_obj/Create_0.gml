@@ -8,6 +8,8 @@ ds_map_add(gameManager.bubbleMap,id,id);
 var ranSprite = irandom(5);
 speed = irandom_range(2,5);
 direction = irandom_range(0,360);
+spin = irandom_range(-1,1);
+image_alpha = 1;
 
 switch(ranSprite){
 	case 0:

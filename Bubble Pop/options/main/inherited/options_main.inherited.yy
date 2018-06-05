@@ -19,6 +19,21 @@
                     "mipsToGenerate": 0,
                     "scaled": true
                 }
+            },
+            {
+                "Key": 2,
+                "Value": {
+                    "id": "f08e5525-627a-4087-9427-808a62d340a8",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "bubblePage",
+                    "targets": 29263750006690030,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
             }
         ],
         "Checksum": "ࢺ懜璙ᓆ锯翋꤯맫",
