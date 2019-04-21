@@ -7,7 +7,7 @@ var xHighConditional = room_width-(bbox_right-bbox_left)/2-timeBar_obj.sprite_wi
 
 if (device_mouse_check_button(0,mb_left) or device_mouse_check_button(0,mb_right)) {
 	if(instance_position(device_mouse_x(0),device_mouse_y(0),id)){
-		if(gameManager.newRoundSetup){
+		if(gameManager.newRoundHasBeenSetup){
 			gameManager.clicked = true;
 			gameManager.bubblePopped = id;
 		}

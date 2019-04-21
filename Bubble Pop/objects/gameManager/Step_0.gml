@@ -7,18 +7,18 @@ if(!spawned){
 		bubbleSpawnCount--;
 	}
 }
-if(ds_map_size(bubbleMap) == spawnConstant && !newRoundSetup){
+if(ds_map_size(bubbleMap) == spawnConstant && !newRoundHasBeenSetup){
 	generateBubbleColor();
 	global.timeLeft = global.roundTime;
-	newRoundSetup = true;
+	newRoundHasBeenSetup = true;
 }
-if(ds_map_size(bubbleMap) == 0 && newRoundSetup){
+if(ds_map_size(bubbleMap) == 0 && newRoundHasBeenSetup){
 	bubbleSpawnCount = spawnConstant;
 	global.timeLeft = 0;
-	newRoundSetup = false;
+	newRoundHasBeenSetup = false;
 }
 
-if(clicked && newRoundSetup){
+if(clicked && newRoundHasBeenSetup){
 	if(bubblePopped.color == global.bubbleTargetColor){
 		ds_map_delete(gameManager.bubbleMap,bubblePopped);
 		instance_destroy(bubblePopped);
@@ -33,10 +33,10 @@ if(clicked && newRoundSetup){
 	clicked = false;
 }
 
-if(global.timeLeft <= 0 && newRoundSetup){
+if(global.timeLeft <= 0 && newRoundHasBeenSetup){
 	room_goto(mainMenu);
 }
-if(newRoundSetup){
+if(newRoundHasBeenSetup){
 	global.timeLeft -= delta_time/1000000;
 }else{
 	global.timeLeft += delta_time/1000000 * global.roundTime/newRoundSeconds;
