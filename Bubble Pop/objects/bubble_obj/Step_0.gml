@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-var yLowConditional = (bbox_bottom-bbox_top)/2 + bubbleColor_obj.sprite_height;
-var yHighConditional = room_height-(bbox_bottom-bbox_top)/2;
-var xLowConditional = (bbox_right-bbox_left)/2 + timeBar_obj.sprite_width;
-var xHighConditional = room_width-(bbox_right-bbox_left)/2-timeBar_obj.sprite_width;
+var yLowConditional = (bbox_bottom-bbox_top)/2 + gameAreaYLow;
+var yHighConditional = gameAreaYHigh-(bbox_bottom-bbox_top)/2;
+var xLowConditional = (bbox_right-bbox_left)/2 + gameAreaXLow;
+var xHighConditional = gameAreaXHigh-(bbox_right-bbox_left)/2;
 
 if (device_mouse_check_button(0,mb_left) or device_mouse_check_button(0,mb_right)) {
 	if(instance_position(device_mouse_x(0),device_mouse_y(0),id)){

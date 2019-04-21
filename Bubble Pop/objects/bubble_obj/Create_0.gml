@@ -2,6 +2,10 @@
 // You can write your code in this editor
 image_xscale = 1/3;
 image_yscale = 1/3;
+gameAreaXHigh = 976;
+gameAreaXLow = 102;
+gameAreaYHigh = 1772;
+gameAreaYLow = 151;
 color = pointer_null;
 image_speed = 0;
 ds_map_add(gameManager.bubbleMap,id,id);

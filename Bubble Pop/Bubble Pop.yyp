@@ -71,27 +71,11 @@
             }
         },
         {
-            "Key": "14120c69-c412-4452-ad0e-75c900aa6637",
-            "Value": {
-                "id": "10eff906-19e1-4e68-8095-76a072f37fbb",
-                "resourcePath": "sprites\\uiBar_spr\\uiBar_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "16184bd5-9d7f-493d-ace8-afe6d997ae81",
             "Value": {
                 "id": "e01061e4-5ffe-4e20-8b11-0cb5b6b8bc0a",
                 "resourcePath": "views\\16184bd5-9d7f-493d-ace8-afe6d997ae81.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "168a2e96-e766-4acc-b4d3-714d32f086f9",
-            "Value": {
-                "id": "ddacc416-74d9-4225-b7a8-d91f3bc2e46c",
-                "resourcePath": "sprites\\SideBarTest\\SideBarTest.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -108,6 +92,14 @@
                 "id": "2042f082-d0e5-40bc-bec6-76ce04bd9227",
                 "resourcePath": "views\\1d7a162d-3be2-4dc9-b205-696c0b66ff54.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "21405924-6ac5-4720-9ee0-543c83b3904a",
+            "Value": {
+                "id": "8191c7c9-e2b6-4fb1-8f70-585b69872537",
+                "resourcePath": "sprites\\grey_gradient_wallpaper_473x1024\\grey_gradient_wallpaper_473x1024.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,14 +271,6 @@
             }
         },
         {
-            "Key": "85e6f223-353a-48e2-85c8-0dab927afa65",
-            "Value": {
-                "id": "40e3f4ac-c261-4d35-9297-9be1e85c554a",
-                "resourcePath": "objects\\sideUIBar\\sideUIBar.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "875cd47a-5ebb-4a52-be07-677a920e8845",
             "Value": {
                 "id": "e28293d3-8c2c-45c6-ae61-058bb25b589a",
@@ -343,14 +327,6 @@
             }
         },
         {
-            "Key": "a2a57df8-875c-4855-878c-2f41c7813e85",
-            "Value": {
-                "id": "33704ebf-dc13-4393-b11e-736aab687741",
-                "resourcePath": "sprites\\timeBar_spr\\timeBar_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a32978b9-53c7-4e93-99ad-261f28f4fc30",
             "Value": {
                 "id": "1ac644fa-76e9-4de1-a49d-cbffee4e55d1",
@@ -388,14 +364,6 @@
                 "id": "0d982e2c-c837-4fac-8257-94f8dc5c2e50",
                 "resourcePath": "views\\acb88f38-4974-47b6-938c-db2fd8950f48.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "af6580cd-3035-4776-943a-0a7178dc089b",
-            "Value": {
-                "id": "2c7d2c56-d425-41ae-af93-38d1cb9628d4",
-                "resourcePath": "objects\\bottomUIBar\\bottomUIBar.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -535,14 +503,6 @@
             }
         },
         {
-            "Key": "e21ab96b-5593-44f2-9e4a-7e791eaa15e2",
-            "Value": {
-                "id": "0a604d9c-0edb-44f5-a503-aea698301b59",
-                "resourcePath": "objects\\timeBar_obj\\timeBar_obj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "956fe296-2ee6-4a68-a4ea-ac92d400b3f5",
@@ -556,14 +516,6 @@
                 "id": "fc6d33f9-2eb4-41b1-9b45-2d1e659b2f73",
                 "resourcePath": "views\\e5d6f295-0123-49cf-868d-ad22a9490953.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ef4aaa4b-d28d-4e2b-9e19-a9fc862fccba",
-            "Value": {
-                "id": "5dbfb1f9-82b0-4ed2-b007-57698253807b",
-                "resourcePath": "objects\\uiBar_obj\\uiBar_obj.yy",
-                "resourceType": "GMObject"
             }
         },
         {
