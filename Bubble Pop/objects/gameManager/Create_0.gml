@@ -4,6 +4,7 @@ randomize();
 global.roundTime = 30;
 global.timeLeft = 0;
 global.bubbleTargetColor = "black";
+global.currentScore = 0;
 gpu_set_texfilter(true);
 bubblePopped = pointer_null;
 clicked = false;
