@@ -1,31 +1,46 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(!spawned){
-	if(bubbleSpawnCount > 0){
+	if(bubblesToSpawn > 0){
 		alarm[0] = spawnTimer;
 		spawned = true;
-		bubbleSpawnCount--;
+		bubblesToSpawn--;
 	}
 }
-if(ds_map_size(bubbleMap) == spawnConstant && !newRoundHasBeenSetup){
+if(ds_map_size(bubbleMap) == bubbleSpawnCount && !newRoundHasBeenSetup){
 	generateBubbleColor();
-	global.timeLeft = global.roundTime;
+	timeLeft = roundTime;
 	newRoundHasBeenSetup = true;
 }
 if(ds_map_size(bubbleMap) == 0 && newRoundHasBeenSetup){
-	bubbleSpawnCount = spawnConstant;
-	global.timeLeft = 0;
+	currentScore += timeLeft * roundScoreMult * 50;
+	
+	timeLeft = 0;
+	
+	if(bubbleSpawnCount < maxBubbleCount){
+		bubbleSpawnCount += 2;	
+	}
+	
+	if(roundTime > minRoundTime){
+		roundTime -= 5;
+	}
+	
+	bubblesToSpawn = bubbleSpawnCount;
+	spawnTimer = floor(room_speed*1/(bubbleSpawnCount));
+	currentRound++;
+	roundScoreMult = power(roundScoreConst,currentRound-1);
 	newRoundHasBeenSetup = false;
 }
 
 if(clicked && newRoundHasBeenSetup){
-	if(bubblePopped.color == global.bubbleTargetColor){
+	if(bubblePopped.color == bubbleTargetColor){
 		ds_map_delete(gameManager.bubbleMap,bubblePopped);
 		instance_destroy(bubblePopped);
+			currentScore += bubleScoreVal * roundScoreMult;
 		if(ds_map_size(bubbleMap) > 0){
 			generateBubbleColor();
 		}else{
-			global.bubbleTargetColor = "black";
+			bubbleTargetColor = "black";
 		}
 	}else{
 		room_goto(mainMenu);	
@@ -33,12 +48,12 @@ if(clicked && newRoundHasBeenSetup){
 	clicked = false;
 }
 
-if(global.timeLeft <= 0 && newRoundHasBeenSetup){
+if(timeLeft <= 0 && newRoundHasBeenSetup){
 	room_goto(mainMenu);
 }
 if(newRoundHasBeenSetup){
-	global.timeLeft -= delta_time/1000000;
+	timeLeft -= delta_time/1000000;
 }else{
-	global.timeLeft += delta_time/1000000 * global.roundTime/newRoundSeconds;
+	timeLeft += delta_time/1000000 * roundTime;
 }
-global.timeLeft = clamp(global.timeLeft,0,global.roundTime);
+timeLeft = clamp(timeLeft,0,roundTime);

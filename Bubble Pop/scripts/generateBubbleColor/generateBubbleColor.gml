@@ -4,21 +4,21 @@ var index = irandom_range(0,instance_number(bubble_obj)-1);
 var color = instance_find(bubble_obj,index).color;
 switch(color){
 	case "red":
-		global.bubbleTargetColor = "red";
+		gameManager.bubbleTargetColor = "red";
 		break;
 	case "green":
-		global.bubbleTargetColor = "green";
+		gameManager.bubbleTargetColor = "green";
 		break;
 	case "blue":
-		global.bubbleTargetColor = "blue";
+		gameManager.bubbleTargetColor = "blue";
 		break;
 	case "yellow":
-		global.bubbleTargetColor = "yellow";
+		gameManager.bubbleTargetColor = "yellow";
 		break;
 	case "purple":
-		global.bubbleTargetColor = "purple";
+		gameManager.bubbleTargetColor = "purple";
 		break;
 	case "orange":
-		global.bubbleTargetColor = "orange";
+		gameManager.bubbleTargetColor = "orange";
 		break;
 }

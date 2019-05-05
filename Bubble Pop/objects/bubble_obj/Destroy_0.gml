@@ -6,7 +6,7 @@ bubbleAnimation_obj.image_angle = image_angle;
 with(bubbleAnimation_obj){
 	image_speed = 2;
 	image_index = 0;
-	changeBubbleColor(global.bubbleTargetColor);	
+	changeBubbleColor(gameManager.bubbleTargetColor);	
 }
 bubbleAnimation_obj.image_xscale = image_xscale
 bubbleAnimation_obj.image_yscale = image_yscale;

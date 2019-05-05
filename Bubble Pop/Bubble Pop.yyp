@@ -170,7 +170,7 @@
             "Key": "471a0431-dda4-4c50-af6d-9286cdb4f40a",
             "Value": {
                 "id": "292df426-3c1b-4de7-874c-131176e48861",
-                "resourcePath": "sprites\\Icon_8\\Icon_8.yy",
+                "resourcePath": "sprites\\settings_sprite\\settings_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -199,10 +199,26 @@
             }
         },
         {
+            "Key": "53bb88b6-2125-401f-a590-4995d14eb27b",
+            "Value": {
+                "id": "770f73ab-b3b2-4f89-865c-94671d06981d",
+                "resourcePath": "sprites\\mainMenu_sprite\\mainMenu_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56912fe6-2360-4dfb-8704-1702f8de7745",
             "Value": {
                 "id": "27555f48-7ae8-40c5-ad6d-0219604c2d98",
                 "resourcePath": "sprites\\bubbleOrange_spr\\bubbleOrange_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57869672-c56f-40f4-a8f1-b96a9461701d",
+            "Value": {
+                "id": "e869cca2-59d6-44f0-b520-1cff962e48a8",
+                "resourcePath": "sprites\\leaderboard_sprite\\leaderboard_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },

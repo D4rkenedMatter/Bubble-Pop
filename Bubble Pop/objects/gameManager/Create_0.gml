@@ -1,22 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
 randomize();
-global.roundTime = 30;
-global.timeLeft = 0;
-global.bubbleTargetColor = "black";
-global.currentScore = 0;
-gpu_set_texfilter(true);
-bubblePopped = pointer_null;
-clicked = false;
-spawnConstant = 20;
-newRoundSeconds = 2;
-spawnTimer = floor(room_speed*newRoundSeconds/spawnConstant);
-bubbleSpawnCount = spawnConstant;
-bubbleMap = ds_map_create();
-bubbleColors = ds_map_create();
+
+currentScore = 0;
+bubleScoreVal = 100;
+roundScoreMult = 1;
+roundScoreConst = 1.2;
+
+roundTime = 40;
+currentRound = 1;
+timeLeft = 0;
+minRoundTime = 20;
+maxBubbleCount = 30;
+
+bubbleSpawnCount = 10;
+bubblesToSpawn = bubbleSpawnCount;
+spawnTimer = floor(room_speed*1/(bubbleSpawnCount));
+
 newRoundHasBeenSetup = false;
 spawned = false;
 
+bubbleMap = ds_map_create();
+bubbleColors = ds_map_create();
+
+clicked = false;
+bubblePopped = pointer_null;
+bubbleTargetColor = "black";
+
+gpu_set_texfilter(true);
 
 
 ds_map_add(bubbleColors,"red",make_color_rgb(178,32,0));
